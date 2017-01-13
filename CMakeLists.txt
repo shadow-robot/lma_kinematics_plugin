@@ -23,6 +23,7 @@ catkin_package(
     tf_conversions
     moveit_ros_planning
 )
+add_compile_options(-std=c++11)
 
 include_directories(include)
 include_directories(${catkin_INCLUDE_DIRS})
